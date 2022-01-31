@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TODO</title>
+</head>
+<body>
+        <header>
+            <div class="navbar" id="navbar">
+                
+                <div class="app__title" id="app-title">
+                    <h1>Some App</h1>
+                </div>
+              <!-- <div id="user"><img src="./img/userpic.png"></div> -->
+            </div>
+        </header>
+        <main class="boards" id="app" >
+            <section class="board" id="board" >
+                <div class="add-task-form" id="add-task-form">
+                    <input class="task-value" id="task-value" placeholder="Add task">
+                    <button class="add-task" id="add-task">+</button>
+                </div>
+                <div class="add-board-form" id="add-board-form">
+                    <input class="board-value" id="board-value" placeholder="Add board">
+                    <button class="add-board" id="add-board">+</button>
+                </div>
+            </section>
+            <section class="columns" id="columns">
+                <div class="column dropzone">
+                    <h3 class="column-title" contenteditable="true">To Do</h3>
+                    <ul class="tasks" id="tasks-added">
+                        <!-- <li class="task fill" draggable="true">
+                            <div class="task-content">Create repository template with HTML & CSS</div>
+                            <div class="trash">X</div>
+                        </li>  -->
+                    </ul>
+                </div>
+                <div class="column dropzone">
+                    <h3 class="column-title" contenteditable="true">In Progress</h3>
+                </div>
+                <div class="column dropzone">
+                    <h3 class="column-title" contenteditable="true">Done</h3>
+                </div>
+            </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html> 
